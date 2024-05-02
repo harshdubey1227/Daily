@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* max-width: 1280px;
+    margin: 0 auto; */
+  font-family: cursive;
+}
+
+.navbar {
+  animation: slideFromLeft 1s ease forwards 0s;
+}
+.row {
+  animation: slideFromLeft 2s ease forwards 0.5s;
+}
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+.nav-link {
+  font-size: 1.4rem;
+  color: darkblue;
+  /* background-color: rgb(236, 75, 50); */
+  /* border: 1px solid black; */
+  /* border-radius: 12px; */
+  /* filter: drop-shadow(1px 0.1px); */
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: rgb(2, 2, 127);
+  font-weight: bold;
+}
+.fa-solid {
+  font-size: 1.5rem;
+}
+
+/* .col-sm-2, .col-sm-4{
+border: 1px solid;
+} */
+
+.card {
+  text-align: center;
+  margin-top: 0.4rem;
+  display: flex;
+  justify-content: center;
+  /* padding-top: 20px; */
+  box-shadow: 0.1px 1px 10px rgba(0, 0, 0, 0.233);
+}
+.card-text {
+  background-color: darkblue;
+  color: white;
+  padding: 1rem;
+}
+
+.btn-primary {
+  margin: 0.5rem;
+}
+
+.footer {
+  background-color: rgb(1, 1, 60);
+  color: thistle;
+  text-align: center;
+  padding: 0.2rem;
+  margin-top: 1.2rem;
+}
+
+.main-text {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  /* border: 1px solid; */
+  margin-top: 1.3rem;
+  animation: slideFromLeft 1s ease forwards 0.3s;
+  opacity: 0;
+}
+
+.col-sm-4 {
+  align-content: center;
+}
+.card-text {
+  background-color: rgb(41, 39, 39);
+  border-radius: 5px;
+}
+.card-text:hover {
+  background-color: rgb(68, 67, 67);
+}
+img:hover {
+  transform: scale(1.02);
+}

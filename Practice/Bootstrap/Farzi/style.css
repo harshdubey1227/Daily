@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+}
+body {
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.header {
+  background-color: black;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+.company-name-icon {
+  height: 1.5rem;
+  width: 1.8rem;
+}
+.company-name-text {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navbar ul li a {
+  color: gray;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-button {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.contact-button a {
+  text-decoration: none;
+}
+
+/* main */
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 70vh;
+  width: 1280px;
+  background-color: aqua;
+  background-image: linear-gradient(red, orange, yellow);
+}
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+/* Cards */
+
+.cardsection {
+  width: 1280px;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  background-color: yellowgreen;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comments {
+  width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.commentcard {
+  height: 40vh;
+  background-color: turquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.commentcard,
+.card {
+  border-radius: 0.5rem;
+}
+
+.border:hover {
+  border: 1px solid black;
+  transition: all 1s;
+  transform: scale(1.03);
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* touchin */
+
+.touchin {
+  border: 1px solid black;
+  color: black;
+  width: 40vw;
+  margin: 3vh auto;
+  height: 20vw;
+}
+.touchtext {
+  padding: 1.2rem;
+  color: blueviolet;
+}
+
+.getintouch {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.touching {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.submitbutton {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: aqua;
+  font-size: 1.2rem;
+  border-radius: 20px;
+}
+
+/* footerss */
+.footers {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: rgb(1, 1, 32);
+}
+.line1 ul li a {
+  color: aliceblue;
+}
+.line1 ul {
+  list-style: none;
+}
+.line1 ul li {
+  padding: 0.2rem 0;
+}
+
+/* copyright */
+
+.copyright {
+  text-align: center;
+  background-color: blue;
+  color: antiquewhite;
+  padding: 0.2rem;
+}
+.year {
+  color: darkcyan;
+  font-weight: bold;
+}
