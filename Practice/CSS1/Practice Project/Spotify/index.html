@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand">
+          <img src="./logo.png" alt="logo-image" /> <span>Spotify</span>
+        </li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+
+    <!-- Song container -->
+
+    <div class="container">
+      <h1>Best of NCS - No copyright Sounds</h1>
+      <div class="songList"></div>
+      <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+      <input type="range" name="range" id="myProgressBar" max="100" min="0" />
+      <div class="icons">
+        <!-- Font awesome icons -->
+        <i class="fa-solid fa-3x fa-play-backward" style="color: #c2d24b"></i>
+        <i class="fa-solid fa-circle-play fa-3x" style="color: #c2d24b"></i>
+        <i class="fa-solid fa-3x fa-play-forward" style="color: #c2d24b"></i>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
