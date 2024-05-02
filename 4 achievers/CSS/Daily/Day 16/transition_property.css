@@ -1,0 +1,15 @@
+.Card{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    
+    transition-duration: 5s;
+    
+    /* transition-delay: 3ms; */
+}
+.Card:hover{
+    background-color: green;
+    transition: 2s;
+height: 100px;
+width: 100px;
+}

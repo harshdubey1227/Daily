@@ -1,0 +1,46 @@
+.red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    background-image: linear-gradient(red,pink);
+    position: absolute;
+    z-index: 2;
+    top: 500px;
+    left: 100px;
+}
+.yellow{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    background-image: linear-gradient(yellow,pink);
+    position: absolute;
+    z-index: 3;
+    top: 400px;
+    left: 200px;
+}
+.green{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    background-image: linear-gradient(green,pink);
+    position: absolute;
+    z-index: 4;
+    top: 300px;
+    left: 300px;
+}
+.blue{
+    
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    background-image: linear-gradient(blue,pink);
+    position: relative;
+    z-index: 1;
+    top: 600px;
+    background-image: linear-gradient();
+    
+}
+.blue:hover{
+    background-image: linear-gradient(red,pink);
+    
+}

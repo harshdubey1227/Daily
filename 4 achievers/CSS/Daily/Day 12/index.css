@@ -1,0 +1,30 @@
+.a{
+    visibility: visible;
+}
+.b{
+    visibility: hidden;
+}
+.c{
+    visibility: collapse; 
+    /* basically used in table */
+}
+
+/*  Float Property */
+.abc{
+    background-color: aqua;
+    float: right;
+    height: 340px;
+    width: 340px;
+    
+}
+
+/*  Clear Poperty */
+
+img{
+    float: right;
+
+}
+
+p{
+    clear: left;
+}

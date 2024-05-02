@@ -1,0 +1,27 @@
+.a{
+    height: 150px;
+    width: 150px;
+    background-color: yellowgreen;
+    background-image: linear-gradient(red, pink); 
+    text-align: center;
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+.b{
+    height: 150px;
+    width: 150px;
+    background-color: yellowgreen;
+    background-image: linear-gradient(orange,yellow);
+    text-align: center;
+    -ms-transform: skewY(20deg);
+    transform: skewY(20deg);
+}
+.c{
+    height: 150px;
+    width: 150px;
+    background-color: yellowgreen;
+    background-image: linear-gradient(skyblue, violet);
+    text-align: center;
+    -ms-transform: scaleY(1.5);
+    transform: scaleY(1.5);
+}

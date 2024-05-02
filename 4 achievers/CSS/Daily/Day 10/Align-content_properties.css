@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+    border: 5px solid red;
+    height: 500px;
+    width: 700px;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+
+}
+
+
+.card1{
+    height: 200px;
+    width: 300px;
+    background-color: greenyellow;
+    text-align: center;
+
+
+}
+.card2{
+    height: 220px;
+    width: 300px;
+    background-color: rgb(47, 71, 255);
+    text-align: center;
+    
+
+
+}
+.card3{
+    height: 180px;
+    width: 300px;
+    background-color: rgb(255, 47, 57);
+    text-align: center;
+
+
+}

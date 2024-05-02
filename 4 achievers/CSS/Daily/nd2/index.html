@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clip-path</title>
+    <style>
+    body{
+        background-color: black;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+
+        clip-path: circle(50px at 100px 100px);
+        /* clip-path: circle(100px at 100px 200px); */
+
+        /* clip-path: ellipse(100px 20px at 100px 100px); */
+
+        /* clip-path: polygon(0px 0px, 100px 0px, 80px 90px, 10px 80px); */
+        /* clip-path: polygon(77% 18%, 85% 35%, 79% 75%, 54% 73%, 38% 65%, 32% 45%, 32% 32%, 40% 20%, 49% 12%, 64% 6%, 78% 5%, 87% 9%, 96% 14%, 99% 24%, 99% 31%, 98% 38%, 99% 50%, 94% 56%, 89% 70%, 79% 75%); */
+        /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+        /* clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); */
+        /* we can give any number of sides by givng co-ordinates */
+
+        clip-path: inset(10% 15% 20% 25%);
+        clip-path: inset(25%);
+
+
+    }
+    </style>
+</head>
+<body>
+    <div class="mainbox" style=" border: 10px solid yellow; width: 200px;">
+    <div class="box">
+        <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" height="200px" width="200px">
+
+    </div>
+</div>
+</body>
+</html>

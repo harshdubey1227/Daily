@@ -1,0 +1,69 @@
+/* Font weight */
+
+p.normal{
+    font-weight: normal;
+}
+p.bold{
+    font-weight: bold;
+}
+p.bolder{
+    font-weight: bolder;
+}
+p.lighter{
+    font-weight: lighter;
+}
+p.number{
+    font-weight: 900;
+}
+
+
+
+
+
+Text decoration
+
+
+    h1{
+        color: aqua;
+      text-decoration: overline;
+    text-decoration-style: dashed;
+     
+    }
+    h2{
+      text-decoration: line-through underline overline;
+    }
+    h3{
+      text-decoration: underline;
+    }
+  
+    
+    
+    
+    
+    /* Font Size */
+
+    div.a{
+        font-size: 300%;
+    }
+    div.b{
+        font-size: medium;
+    }
+    div.c{
+        font-size: 90px;
+    }
+
+
+
+
+
+    /* letter spacing  */
+
+    h1{
+        letter-spacing: 5px;
+    }
+    h2{
+        letter-spacing: -5px;
+    }
+    h3{
+        letter-spacing: 25px;
+    }

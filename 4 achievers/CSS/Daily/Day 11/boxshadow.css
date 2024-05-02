@@ -1,0 +1,25 @@
+/* box shadow property */
+h1{
+    box-shadow: 5px 10px;
+    height: 15%;
+    width: 30%;
+    border: 2px solid greenyellow;
+}
+.apple{
+    height: auto;
+    width: auto;
+    border:6px solid yellow;
+    box-shadow: 5px 10px 10px red;
+}
+
+
+
+/* text shadow property */
+
+h2{
+    text-shadow: 2px 5px ;
+}
+.apple2{
+    font-size: xx-large;
+    text-shadow: 5px 10px  red;
+}

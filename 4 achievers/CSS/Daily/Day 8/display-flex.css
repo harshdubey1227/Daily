@@ -1,0 +1,51 @@
+.Main{display: flex;
+    /* flex-direction: row; */
+    /*( by default row) */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+
+
+    /* Justify content Property   ( Always work in row direction) */
+
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: start; (by default start ) */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+
+    /* Flex wrap property */
+
+
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap-reverse;
+}
+.gautam{
+    padding: 25px;
+    border: 3px solid brown;
+height: 300px;
+width: 300px;
+background-color: greenyellow;
+/* margin: 12px; */
+
+
+}
+.ravindra{
+    padding: 25px;
+    border: 3px solid brown;
+    height: 300px;
+width: 300px;
+background-color: purple;
+/* margin: 12px; */
+}
+.harsh{
+    padding: 25px;
+    border: 3px solid brown;
+    height: 300px;
+width: 300px;
+background-color: orangered;
+/* margin: 12px; */
+}

@@ -1,0 +1,81 @@
+.main{
+    height: auto;
+    width: 1000;
+    border: 4px solid greenyellow;
+display: flex;
+/* flex-direction: column; */
+    /* flex-direction:row-reverse; */
+    /* by default row */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* ........................................... */
+    /* justify-content: center; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: always woork in row direction; */
+    /* ................................................... */
+    /* ................................................... */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+}
+p{
+    color: white;
+}
+h1{
+    font-size: 45px;
+    color: rgb(61, 175, 179);
+    text-align: center;
+}
+.prabh{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    background-color: chartreuse;
+    margin :20px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    /* flex-grow: 1; */
+    
+
+}
+.ankit{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(39, 105, 166);
+    margin :20px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    /* flex-grow: 1; */
+    
+}
+.gautam{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+    margin :20px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    /* flex-grow: 1; */
+    align-items: center;
+}
+.huma{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(122, 88, 170);
+    margin :20px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    
+}

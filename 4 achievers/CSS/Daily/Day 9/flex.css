@@ -1,0 +1,35 @@
+.main{
+    border: 3px solid black;
+    height: 300px;
+    width: 700px;
+    display: flex;
+    align-items: normal;
+}
+.KGF1{
+    height: auto;
+    width: 200px;
+    background-color: rgb(22, 148, 148);
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 3;
+}
+.KGF2{
+    height: auto;
+    width: 200px;
+    background-color: rgb(208, 255, 0);
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.KGF3{
+    height: auto;
+    width: 200px;
+    background-color: rgb(255, 0, 8);
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    flex-shrink: 5;
+    
+}

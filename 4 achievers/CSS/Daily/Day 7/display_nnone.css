@@ -1,0 +1,35 @@
+.gfg{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    font-size: 25px;
+    margin-left: 20px;
+    display: none;
+
+
+}
+.geeks{height: 100px;
+    width: 100px;
+    background-color: rgb(18, 60, 60);
+    margin: 50px;
+    display: block;
+}
+
+#main{height: 100px;
+    width: 100px;
+    background-color: rgb(138, 141, 141);
+display: inline-block;
+
+}
+#main1{height: 100px;
+    width: 100px;
+    background-color: rgb(6, 253, 253);
+display: inline-block;
+
+}
+#main2{height: 100px;
+    width: 100px;
+    background-color: rgb(5, 147, 147);
+display: none;
+
+}

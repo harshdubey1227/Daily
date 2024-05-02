@@ -1,0 +1,28 @@
+#Geeks{
+    height: 200px;
+    width: 300px;
+    
+    border: 2px solid black;
+    display: flex;
+}
+
+#Geeks{
+    height: 500px;
+    width: 600px;
+    flex: 1;
+}
+
+.KGF1{
+    background-color: antiquewhite ;
+
+
+}.KGF2{
+    background-color: aqua ;
+
+
+}
+.KGF3{
+    background-color: sandybrown ;
+
+
+}

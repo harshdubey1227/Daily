@@ -1,0 +1,55 @@
+.main1{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px ;
+    border: 2px solid purple;
+    background-color: aqua;
+    background-image: radial-gradient( red,yellow , green);
+    display: inline-block;
+}
+.main2{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px ;
+    border: 2px solid purple;
+    background-color: aqua;
+    background-image: radial-gradient(circle closest-side, red 20%,yellow 30%, blue 30%,green );
+
+    /* SHAPE --by default shape is in ellipse otherwise we can choose circle by our own*/
+/* POSITION-- CLOSEST-SIDE andCLOSEST CORNER, Farthest-Side, Farthest-corner( by default) */
+/*  */
+
+    display: inline-block;
+}
+.main3{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px ;
+    border: 2px solid purple;
+    background-color: aqua;
+    background-image: radial-gradient(circle farthest-side, red 10%,yellow 20% , green );
+    display: inline-block;
+}
+                                            /* CONIC-GRADIENT */
+.main4{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px ;
+    border: 2px solid purple;
+    background-color: aqua;
+    background-image: conic-gradient( red ,yellow 25deg  , green 30deg, blue 35deg, purple  );
+    display: inline-block;
+}
+.main5{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    /* background-image: conic-gradient( red 0deg 25%, yellow 90deg 50%, green 180deg 75% , blue 270deg ); */
+                                                /*or  */
+    background-image: conic-gradient( red 0deg , red 90deg, yellow 90deg, yellow 180deg  , green 180deg  , green 270deg ,blue 270deg, blue 360deg );
+    
+
+}

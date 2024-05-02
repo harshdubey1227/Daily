@@ -1,0 +1,34 @@
+#main{
+    height: 200px;
+    width: 200px;
+    background: teal;
+    display: inline-block; 
+}
+#main1{
+    height: 200px;
+    width: 200px;
+    background: rgb(24, 172, 44);
+    display: inline-block;
+}
+#main2{
+    height: 200px;
+    width: 200px;
+    background: rgb(178, 14, 14);
+    display: inline-block;
+}
+.gfg{
+    font-size: larger;
+    display: inline-block;
+    background-color: orange;
+   
+}
+.geeks{
+    font-size: 25px;
+    display: inline-block;
+    background: white;
+}
+.goat{
+    font-size: 25px;
+    display: inline-block;
+    background: green;
+}

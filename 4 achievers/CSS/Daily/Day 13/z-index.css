@@ -1,0 +1,44 @@
+.container{
+    position: relative;
+}
+.green-box{
+    position: absolute;
+    z-index: 2;
+    background-color: lightgreen;
+    width: 35%;
+    height: 100px;
+    left: 270px;
+    top: -15px;
+}
+.black-box{
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 100px;
+    
+    margin: 30px;
+}
+.gray-box{
+    height: 60px;
+    width: 70%;
+    position: absolute;
+    z-index: 3;
+    background-color: gray;
+    left: 50px;
+    top: 50px;
+}
+
+/* LINEAR GRADIENT */
+
+
+
+.red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    background-image: linear-gradient(  green , blue, red, yellow , orange);
+    position: absolute;
+    z-index: 2;
+    top: 500px;
+    left: 100px;
+}
