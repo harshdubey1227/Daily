@@ -1,0 +1,85 @@
+body{ 
+    background-image: url(./images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.dubey1{
+height: 250px;
+width: 250px;
+border: 8px solid black;
+background-color: red;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
+font-weight: 900;
+font-size: 25px;
+letter-spacing: 4px;
+text-align: center;
+text-decoration:underline ;
+text-decoration-style: dotted;
+margin-top: 25px;
+padding-top: 25px;
+border-radius: 20px;
+border-style: dashed;
+
+}
+.dubey2{
+    height: 250px;
+    width: 250px;
+    border: 8px solid black;
+    background-color:yellow ;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 25px;
+    letter-spacing: 4px;
+    text-align: center;
+    text-decoration:overline ;
+    text-decoration-style: double;
+    margin-right: 25px;
+    margin-top: 25px;
+padding-top: 25px;
+border-radius: 20px;
+border-style: double;
+    
+    }
+
+    .dubey3{
+        height: 250px;
+        width: 250px;
+        border: 8px solid black;
+        background-color: green;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 25px;
+        letter-spacing: 4px;
+        text-align: center;
+        text-decoration:line-through ;
+        text-decoration-style: wavy;
+        margin-top: 25px;
+        padding-top: 25px;
+        border-radius: 20px;
+        border-style: groove;
+        }
+        .dubey4{
+            height: 250px;
+            width: 250px;
+            border: 8px solid black;
+            background-color:blue ;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: oblique;
+            font-weight: 900;
+            font-size: 25px;
+            letter-spacing: 4px;
+            text-align: center;
+            text-decoration: overline;
+            text-decoration-style: dashed;
+            margin-top: 25px;
+            padding-top: 25px;
+            border-radius: 20px;
+            border-style: dotted;
+            }

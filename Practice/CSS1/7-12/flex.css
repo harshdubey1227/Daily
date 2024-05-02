@@ -1,0 +1,80 @@
+.main{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    border: 6px solid black;
+    align-items: normal;
+    display: flex;
+
+    box-shadow: 4px 8px 4px rebeccapurple;
+
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: baseline; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around */
+    /* justify-content: space-evenly; */
+
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* align-self: center ; */
+    /* align-items: flex-start;
+    align-content: space-between; */
+
+    float: right;
+
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid black;
+    border-style: dotted;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    /* flex-grow: 5; */
+    
+    
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color:yellow ;
+    border: 2px solid black;
+    border-style: dotted;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+
+    /* align-self: self-start; */
+   
+   /* flex-shrink: 2; */
+
+   /* visibility: hidden; */
+
+
+    
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color:violet ;
+    border: 2px solid black;
+    border-style: dotted;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+  
+    
+    
+    
+
+}
