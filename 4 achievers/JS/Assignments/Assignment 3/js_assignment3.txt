@@ -1,0 +1,71 @@
+Q1. Write the Code for all Data types.
+
+Ans. Integer
+ let num = 123;
+        console.log(num);
+    o/p:- 123
+    
+String
+    let str = "Software Developer"
+      console.log(str);
+  o/p:- Software Developer
+    
+Boolean
+   let x = 10;
+        let y = 20;
+        let result = x>y;
+        let result1 = x<y;
+        console.log(result);
+        console.log(result1);
+    o/p:- false
+          true
+
+Array
+      var x = ["java", "html", "css"];
+        console.log(x);
+
+Object
+        var x = {Fisrt:"Narendra", last:"Modi"}
+
+Null
+        var x = null;
+        console.log(x)
+    o/p:- null
+
+Undefined 
+    var x = ;
+    console.log(x)
+    o/p:- x is undefined
+
+Example of bigint
+    let z = 12344566777n
+
+Q2. What are the uses of JavaScript Operators?
+Ans. Operators are used to assign values, compare values, perform arithmetic operations, and more.
+
+Q3. Explain the Assignment Operator.
+Ans. The assignment operator = assigns the value of its right-hand operand to a variable, a property, or an indexer element given by its left-hand operand.
+=, +=, -=, *=, /+, %=, **
+
+Q4. Explain the all Arithmetic Operators.
+Ans. operator           Description
+
+        +               Addition
+        -               Subtraction
+        *               Multiplication
+        /               Division
+        %               Modulus(Remainder)
+        **              Exponentiation
+        ++              Increment
+        --              Decrement
+
+Q5. What are the Binary Operators in js?
+Ans. These operators require two operands for operation.
+There are four fundamental binary operators.
+        +               Addition
+        -               Subtraction
+        *               Multiplication
+        /               Division
+
+Q6. Explain the Pre-Increment and Post Increment in js.
+Ans. In both cases, the variable num is incremented by 1. However, the pre-increment operator ++ increases the value before it is used, while the post-increment operator ++ increases the value after it is used.
