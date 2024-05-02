@@ -1,0 +1,40 @@
+h1{
+    color: brown;
+}
+span.a{
+    text-decoration: line-through;
+}
+span.b{
+    background: yellow;
+}
+span.d{
+    text-decoration: underline;
+    font-style: italic;
+}
+h2{
+    font-style: italic;
+    color: red;
+}
+.li1{ letter-spacing: 4px;
+    color: brown;
+    
+}
+.p1{
+    color: brown;
+    font-size: 125%;
+}
+.p2{
+    color: brown;
+    font-size: 50%;
+}
+#p3{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 800;
+    font-style: oblique;
+}
+span.ab{
+    color: red;
+    background: yellow;
+}

@@ -1,0 +1,156 @@
+.main{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.box1{
+    height: 40px;
+    width: 100%;
+    text-decoration: underline;
+    text-align: center;
+    /* margin-top: -20px; */
+    background-image: linear-gradient(to right, red, green, lightgreen,greenyellow);
+}
+
+.box2{
+    height: 80px;
+    width: 70%;
+    border: 3px solid red;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(205, 203, 203);
+    margin: 16px 15% 16px 15%;
+    
+}
+
+.box3{
+    height: 166px;
+    width: 100%;
+    background-color: lightgreen;
+    border: 1px solid red;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.card{
+    height: 80px;
+    width: 460px;
+    border: 2px solid darkgreen;
+    background-color: aqua;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.box4{
+    height: 40px;
+    width: 100%;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, red, yellow, red);
+
+}
+
+.box5{
+    height: 320px;
+    width: 100%;
+    border: 2px solid darkgreen;
+    background-image: radial-gradient(closest-side,blue, green);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.okok{
+    height: 105px;
+    width: 200px;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: red;
+    text-decoration: underline;
+    font-weight: 600;
+    text-align: center;
+}
+
+.box6{
+    height: 40px;
+    width: 100%;
+    /* text-decoration: underline; */
+    text-align: center;
+    background-color: red;
+    margin-top: 35px;
+    color: white;
+
+}
+
+.box7{
+    display: flex;
+    flex-wrap: wrap;
+}
+.token1{
+    height: 75px;
+    width: 400px;
+    margin: 15px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: xx-large;
+    background-color: rgb(38, 204, 38);
+}
+.token2{
+    height: 75px;
+    width: 400px;
+    margin: 15px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: x-large;
+    background-color:rgb(50, 50, 248) ;
+}
+.token3{
+    height: 75px;
+    width: 400px;
+    margin: 15px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: x-large;
+    background-color:rgb(3, 3, 184) ;
+}
+.token4{
+    width: 1260px;
+    height: 150px;
+    margin: 15px;
+    text-align: center;
+    font-weight: 600;
+    font-size: xx-large;
+    background-color: orangered;
+    color: white;
+
+}
+.token5{
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: -90px;
+    height: 255px;
+    width: 170px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+}
+
+.box8{
+    height: 40px;
+    width: 100%;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: px;
+    background-image: linear-gradient(to right, rgb(238, 113, 113), rgb(78, 247, 78), rgb(217, 58, 245),rgb(47, 241, 255));
+
+}
